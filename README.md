@@ -10,7 +10,7 @@ Olá! Este repositório contém a minha solução para o desafio da Logzz. Trata
 
 Se precisar entrar em contato, você pode me encontrar no [LinkedIn](https://www.linkedin.com/in/giovani-appezzato/), pelo e-mail giovani.appezzato@gmail.com ou no número (19) 99494-7867.
 
-Versão em produção: https://logzz.giovani-appezzato.com.br/sign-in
+Versão em produção: https://giovani-appezzato-challenge-logzz.vercel.app/sign-in
 
 ## 🚀 Começando
 
