@@ -1,0 +1,11 @@
+@import "tailwindcss/base";
+@import "@/styles/base/index.css";
+
+@import "tailwindcss/components";
+@import "@/styles/components/react-dataTable.css";
+@import "@/styles/components/card.css";
+@import "@/styles/components/input.css";
+@import "@/styles/components/button.css";
+
+@import "tailwindcss/utilities";
+@import "@/styles/utilities/index.css";

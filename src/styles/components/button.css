@@ -1,0 +1,187 @@
+.button {
+  @apply
+    inline-flex justify-center items-center gap-2 relative overflow-hidden px-3 py-2
+    !text-white text-sm tracking-wider shadow rounded-md border border-transparent transition cursor-pointer
+    focus:outline-none focus:ring
+    disabled:cursor-not-allowed disabled:ring-0;
+}
+
+.button-xs {
+  @apply text-xs px-1.5 py-1;
+}   
+
+.button-sm {
+  @apply text-[13px] px-2.5 py-1.5;
+}
+
+.button-lg {
+  @apply px-3.5 py-2.5;
+}
+
+.button-xl {
+  @apply text-[15px] px-4 py-3;
+}
+
+.button-icon {
+  @apply 
+    w-8 h-8 inline-flex justify-center items-center transition text-sm text-white rounded-md shadow border border-transparent
+    focus:outline-none focus:ring
+}
+
+.button-icon-sm {
+  @apply text-xs w-7 h-7;
+}
+
+.button-icon-xs {
+  @apply text-xs w-6 h-6;
+}
+
+.button-icon-lg {
+  @apply w-10 h-10
+}
+
+.button-primary {
+  @apply
+    bg-primary
+    ring-primary/20
+    hover:bg-primary-active
+    disabled:bg-primary/60;
+}
+
+.button-secondary {
+  @apply
+    bg-secondary
+    ring-secondary/20
+    hover:bg-secondary-active
+    disabled:bg-secondary/60;
+}
+
+.button-success {
+  @apply
+    bg-success
+    ring-success/20
+    hover:bg-success-active
+    disabled:bg-success/60;
+}
+
+.button-danger {
+  @apply
+    bg-danger
+    ring-danger/20
+    hover:bg-danger-active
+    disabled:bg-danger/60;
+}
+
+.button-warning {
+  @apply
+    bg-warning
+    ring-warning/20
+    hover:bg-warning-active
+    disabled:bg-warning/60;
+}
+
+.button-info {
+  @apply
+    bg-info
+    ring-info/20
+    hover:bg-info-active
+    disabled:bg-info/60;
+}
+
+.button-light {
+  @apply
+    bg-white border-slate-200 text-gray-600 shadow-none
+    hover:bg-gray-50 focus:ring-0 active:bg-gray-100
+    dark:bg-white/5 dark:border-zinc-800 dark:text-gray-400
+    dark:hover:bg-white/10;
+}
+
+.button-primary-outline {
+  @apply
+    bg-transparent border-primary text-primary ring-primary/30
+    hover:bg-primary hover:text-white
+    focus:bg-primary-active focus:text-white;
+}
+
+.button-secondary-outline {
+  @apply
+    bg-transparent border-secondary text-secondary ring-secondary/30
+    hover:bg-secondary hover:text-white
+    focus:bg-secondary-active focus:text-white;
+}
+
+.button-success-outline {
+  @apply
+    bg-transparent border-success text-success ring-success/30
+    hover:bg-success hover:text-white
+    focus:bg-success-active focus:text-white;
+}
+
+.button-danger-outline {
+  @apply
+    bg-transparent border-danger text-danger ring-danger/30
+    hover:bg-danger hover:text-white
+    focus:bg-danger-active focus:text-white;
+}
+
+.button-warning-outline {
+  @apply
+    bg-transparent border-warning text-warning ring-warning/30
+    hover:bg-warning hover:text-white
+    focus:bg-warning-active focus:text-white;
+}
+
+.button-info-outline {
+  @apply
+    bg-transparent border-info text-info ring-info/30
+    hover:bg-info hover:text-white
+    focus:bg-info-active focus:text-white;
+}
+
+.button-primary-soft {
+  @apply
+    bg-primary/30 text-primary ring-primary/30
+    hover:bg-primary hover:text-white
+    focus:bg-primary focus:text-white
+    dark:bg-primary dark:text-white;
+}
+
+.button-secondary-soft {
+  @apply
+    bg-secondary/30 text-secondary ring-secondary/30
+    hover:bg-secondary hover:text-white
+    focus:bg-secondary focus:text-white
+    dark:bg-secondary dark:text-white;
+}
+
+.button-success-soft {
+  @apply
+    bg-success/30 text-success ring-success/30
+    hover:bg-success hover:text-white
+    focus:bg-success focus:text-white
+    dark:bg-success dark:text-white;
+}
+
+.button-danger-soft {
+  @apply
+    bg-danger/30 text-danger ring-danger/30
+    hover:bg-danger hover:text-white
+    focus:bg-danger focus:text-white
+    dark:bg-danger dark:text-white;
+}
+
+.button-warning-soft {
+  @apply
+    bg-warning/30 text-warning ring-warning/30
+    hover:bg-warning hover:text-white
+    focus:bg-warning focus:text-white
+    dark:bg-warning dark:text-white;
+}
+
+.button-info-soft {
+  @apply
+    bg-info/30 text-info ring-info/30
+    hover:bg-info hover:text-white
+    focus:bg-info focus:text-white
+    dark:bg-info dark:text-white;
+}

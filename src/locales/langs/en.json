@@ -1,0 +1,120 @@
+{
+  "translation": {
+    "fields": {
+      "name": "Name",
+      "email": "Email",
+      "password": "Password",
+      "newPassword": "New Password",
+      "confirmPassword": "Confirm Password",
+      "optional": "(Optional)",
+      "notFound": "Not found",
+      "nameProduct": "Product Name",
+      "description": "Description",
+      "price": "Price",
+      "image": "Image",
+      "category": "Category",
+      "product": "Product"
+    },
+    "pages": {
+      "signIn": {
+        "title": "Sign In to the Platform",
+        "description": "Welcome back!",
+        "noAccount": "Don't have an account?",
+        "doSignUp": "Create one",
+        "access": "Access",
+        "invalidCredentials": "Invalid credentials",
+        "defaultToast": "Use root@gmail.com and the password 123456 to access the default system user, or create a new account."
+      },
+      "signUp": {
+        "title": "Create your account",
+        "description": "Please fill in the form below to create your account.",
+        "create": "Sign Up",
+        "alreadyHave": "Already have an account?",
+        "doSignIn": "Sign in"
+      },
+      "home": {
+        "title": "Products",
+        "cardTitle": "Product List",
+        "cardDescription": "View all products registered in the system.",
+        "cardButton": "Add",
+        "actions": "Actions",
+        "rowsPerPageText": "Rows per page:",
+        "previousLabel": "Previous",
+        "nextLabel": "Next",
+        "searchPlaceholder": "Product or category",
+        "total": "Total of {{count}} products.",
+        "productDeleted": "Product successfully deleted.",
+        "noDataComponent": "No products found."
+      },
+      "profile": {
+        "title": "Profile",
+        "cardTitle": "User Data",
+        "cardDescription": "Edit your account details.",
+        "save": "Save",
+        "userEdited": "User successfully edited."
+      },
+      "createProduct": {
+        "title": "Create Product",
+        "cardTitle": "Create Product",
+        "cardDescription": "Add a new product to the platform.",
+        "save": "Save",
+        "productCreated": "Product successfully created."
+      },
+      "editProduct": {
+        "title": "Edit Product",
+        "cardTitle": "Edit Product",
+        "cardDescription": "Edit a product in the system.",
+        "save": "Save",
+        "productUpdated": "Product successfully updated."
+      }
+    },
+    "components": {
+      "dropdownHeader": {
+        "title": "Logged in as:",
+        "logout": "Log out",
+        "profile": "Profile"
+      },
+      "footer": {
+        "developedBy": "© 2024 Developed by "
+      }
+    },
+    "errors": {
+      "yup": {
+        "required": "Field is required",
+        "min": "Must be at least ${min} characters",
+        "max": "Must be at most ${max} characters",
+        "email": "Must be a valid email",
+        "url": "Must be a valid URL",
+        "matches": "Must match the following pattern: ${regex}",
+        "integer": "Must be an integer",
+        "passwordsMustMatch": "Passwords must match",
+        "checkAllFields": "Check all fields",
+        "passwordsDontMatch": "Passwords must match"
+      },
+      "404": {
+        "title": "Page not found",
+        "message": "The page you are looking for does not exist."
+      },
+      "401": {
+        "title": "Unauthorized",
+        "message": "You are not authorized."
+      },
+      "500": {
+        "title": "Internal Server Error",
+        "message": "An internal server error occurred."
+      },
+      "503": {
+        "title": "Service Unavailable",
+        "message": "The service is temporarily unavailable."
+      },
+      "504": {
+        "title": "Gateway Timeout",
+        "message": "The gateway did not receive a timely response from the server or remote application."
+      },
+      "default": {
+        "title": "An error occurred",
+        "message": "An error occurred, please try again later."
+      }
+    }
+  }
+}

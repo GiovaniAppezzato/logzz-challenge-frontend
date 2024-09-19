@@ -1,0 +1,120 @@
+{
+  "translation": {
+    "fields": {
+      "name": "Nome",
+      "email": "E-mail",
+      "password": "Senha",
+      "newPassword": "Nova Senha",
+      "confirmPassword": "Confirmar Senha",
+      "optional": "(Opcional)",
+      "notFound": "Não encontrado",
+      "nameProduct": "Nome do Produto",
+      "description": "Descrição",
+      "price": "Preço",
+      "image": "Imagem",
+      "category": "Categoria",
+      "product": "Produto"
+    },
+    "pages": {
+      "signIn": {
+        "title": "Entrar na Plataforma",
+        "description": "Bem vindo de volta!",
+        "noAccount": "Não tem conta?",
+        "doSignUp": "Crie uma",
+        "access": "Acessar",
+        "invalidCredentials": "Credenciais inválidas",
+        "defaultToast": "Utilize o e-mail root@gmail.com e a senha 123456 para utilizar o usuário padrão do sistema ou crie uma nova conta."
+      },
+      "signUp": {
+        "title": "Cadastre sua conta",
+        "description": "Por favor preencha o formulário abaixo para criar sua conta.",
+        "create": "Cadastrar",
+        "alreadyHave": "Ja possui uma conta?",
+        "doSignIn": "Faça o login"
+      },
+      "home": {
+        "title": "Produtos",
+        "cardTitle": "Lista de produtos",
+        "cardDescription": "Veja todos os produtos cadastrados no sistema.",
+        "cardButton": "Adicionar",
+        "actions": "Ações",
+        "rowsPerPageText": "Linhas por página:",
+        "previousLabel": "Anterior",
+        "nextLabel": "Próximo",
+        "searchPlaceholder": "Produto ou categoria",
+        "total": "Total de {{count}} produtos.",
+        "productDeleted": "Produto excluído com sucesso.",
+        "noDataComponent": "Nenhum produto encontrado."
+      },
+      "profile": {
+        "title": "Perfil",
+        "cardTitle": "Dados do usuário",
+        "cardDescription": "Edite os dados da sua conta.",
+        "save": "Salvar",
+        "userEdited": "Usuário editado com sucesso."
+      },
+      "createProduct": {
+        "title": "Criar produto",
+        "cardTitle": "Criar produto",
+        "cardDescription": "Adicione um novo produto a plataforma.",
+        "save": "Salvar",
+        "productCreated": "Produto criado com sucesso."
+      },
+      "editProduct": {
+        "title": "Editar produto",
+        "cardTitle": "Editar produto",
+        "cardDescription": "Edite um produto do sistema.",
+        "save": "Salvar",
+        "productUpdated": "Produto editado com sucesso."
+      }
+    },
+    "components": {
+      "dropdownHeader": {
+        "title": "Logado como:",
+        "logout": "Sair",
+        "profile": "Perfil"
+      },
+      "footer": {
+        "developedBy": "© 2024 Desenvolvido por "
+      }
+    },
+    "errors": {
+      "yup": {
+        "required": "Campo é obrigatório",
+        "min": "Deve conter no mínimo ${min} caracteres",
+        "max": "Deve conter no máximo ${max} caracteres",
+        "email": "Deve ser um e-mail válido",
+        "url": "Deve ser uma URL válida",
+        "matches": "Deve corresponder ao seguinte padrão: ${regex}",
+        "integer": "Deve ser um número inteiro",
+        "passwordsMustMatch": "As senhas devem ser iguais",
+        "checkAllFields": "Verifique todos os campos",
+        "passwordsDontMatch": "As senhas devem ser iguais"
+      },
+      "404": {
+        "title": "Página não encontrada",
+        "message": "A página que você está procurando não existe."
+      },
+      "401": {
+        "title": "Não autorizado",
+        "message": "Você não está autorizado."
+      },
+      "500": {
+        "title": "Erro interno do servidor",
+        "message": "Ocorreu um erro interno no servidor."
+      },
+      "503": {
+        "title": "Serviço indisponível",
+        "message": "O serviço está temporariamente indisponível."
+      },
+      "504": {
+        "title": "Tempo limite de gateway",
+        "message": "O gateway não recebeu uma resposta oportuna do servidor ou aplicação remota."
+      },
+      "default": {
+        "title": "Ocorreu um erro",
+        "message": "Ocorreu um erro, por favor tente novamente mais tarde."
+      }
+    }
+  }
+}

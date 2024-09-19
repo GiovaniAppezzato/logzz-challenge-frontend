@@ -1,0 +1,31 @@
+.input {
+  @apply
+    w-full px-3 py-2.5
+    border border-gray-300 text-sm
+    bg-transparent rounded-lg shadow transition
+    focus:border-primary focus:ring focus:ring-primary focus:ring-opacity-20 focus:outline-none
+    dark:border-zinc-700 dark:focus:border-primary dark:disabled:bg-white/10
+    disabled:bg-gray-100;
+}
+
+.input-lg {
+  @apply px-3.5 py-2.5 text-lg;
+}
+
+.input-sm {
+  @apply py-1.5 px-2 text-sm;
+}
+
+.is-input-danger {
+  @apply
+    !border-danger
+    focus:border-danger focus:ring-danger focus:ring-opacity-20
+    dark:border-danger dark:focus:ring-danger dark:focus:ring-opacity-20;
+}
+
+.is-input-success {
+  @apply
+    !border-success
+    focus:border-success focus:ring-success focus:ring-opacity-20
+    dark:border-success dark:focus:ring-success dark:focus:ring-opacity-20;
+}

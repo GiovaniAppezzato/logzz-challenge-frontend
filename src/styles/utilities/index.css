@@ -1,0 +1,23 @@
+.bg-primary-soft {
+  @apply bg-primary/30 dark:bg-primary;
+}
+
+.bg-secondary-soft {
+  @apply bg-secondary/30 dark:bg-secondary;
+}
+
+.bg-success-soft {
+  @apply bg-success/30 dark:bg-success;
+}
+
+.bg-danger-soft {
+  @apply bg-danger/30 dark:bg-danger;
+}
+
+.bg-warning-soft {
+  @apply bg-warning/30 dark:bg-warning;
+}
+
+.bg-info-soft {
+  @apply bg-info/30 dark:bg-info;
+}

@@ -1,0 +1,29 @@
+.rdt_Table,
+.rdt_TableCol,
+.rdt_TableHeadRow,
+.rdt_TableCell,
+.rdt_TableRow,
+.rdt_Pagination {
+  @apply !bg-transparent !border-dashed !border-gray-200 dark:border-zinc-700;
+}
+
+.rdt_Table div,
+.rdt_Pagination *, .rdt_Pagination svg {
+  @apply !text-typography;
+}
+
+.rdt_TableHeadRow {
+  @apply text-sm font-medium !bg-body;
+}
+
+.page-link {
+  @apply w-8 h-8 rounded-full bg-body text-typography cursor-pointer;
+}
+
+.page-link a {
+  @apply w-full h-full inline-flex justify-center items-center
+}
+
+.page-active {
+  @apply !bg-primary !text-white;
+}

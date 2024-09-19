@@ -1,0 +1,53 @@
+.card {
+  @apply
+    flex flex-col
+    bg-white shadow-sm rounded-lg
+    dark:bg-navbar dark:shadow-xl;
+}
+
+.card-header {
+  @apply
+    w-full px-5 py-4 text-[15px]
+    flex items-center justify-between
+    rounded-t-lg border-b border-dashed
+    dark:border-zinc-700;
+}
+
+.card-body {
+  @apply w-full grow px-5 py-4;
+}
+
+.card-footer {
+  @apply w-full px-5 py-4 rounded-b-lg border-t border-dashed;
+
+  /* @apply w-full px-5 py-4 rounded-b border-t border-dashed font-semibold bg-gray-50
+  dark:bg-navbar/5 dark:border-zinc-700; */
+}
+
+.card-primary {
+  @apply bg-gradient-to-b from-primary to-primary-active;
+}
+
+.card-secondary {
+  @apply bg-gradient-to-b from-secondary to-secondary-active;
+}
+
+.card-success {
+  @apply bg-gradient-to-b from-success to-success-active;
+}
+
+.card-danger{
+  @apply bg-gradient-to-b from-danger to-danger-active;
+}
+
+.card-warning{
+  @apply bg-gradient-to-b from-warning to-warning-active;
+}
+
+.card-info{
+  @apply bg-gradient-to-b from-info to-info-active;
+}
+
+.card-base {
+  @apply bg-white dark:bg-navbar;
+}
