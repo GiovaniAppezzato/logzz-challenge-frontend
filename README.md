@@ -6,15 +6,17 @@
 
 ## 📝 Introdução
 
-Olá! Este repositório contém a minha solução para o desafio da Logzz. Trata-se de um sistema simples de cadastro de produtos, com a opção de importar uma base de dados de outra api utilizando Laravel e Next.js.
+Olá! Este repositório contém a minha solução para o desafio da Logzz. Trata-se de um sistema simples de cadastro de produtos, com o comando para importar uma base de dados de outra api utilizando Laravel e Next.js.
 
 Se precisar entrar em contato, você pode me encontrar no [LinkedIn](https://www.linkedin.com/in/giovani-appezzato/), pelo e-mail giovani.appezzato@gmail.com ou no número (19) 99494-7867.
 
 Versão em produção: https://logzz.giovani-appezzato.com.br/sign-in
 
-### 📋 Pré-requisitos
+## 🚀 Começando
 
-Antes de começar, verifique se você possui as seguintes dependências instaladas. Caso contrário, faça o download e instale-as para prosseguir:
+Siga as **instruções** abaixo para configurar o ambiente e rodar o front-end do projeto localmente.
+
+### 📋 Pré-requisitos
 
 * [Git](https://git-scm.com/downloads) 
 * [NPM (8.5.5)](https://www.npmjs.com/)
