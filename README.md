@@ -6,15 +6,11 @@
 
 ## 📝 Introdução
 
-Olá! Este repositório contém a minha solução para o desafio da Logzz. Trata-se de um sistema simples de cadastro de produtos utilizando Laravel e Next.js.
+Olá! Este repositório contém a minha solução para o desafio da Logzz. Trata-se de um sistema simples de cadastro de produtos, com a opção de importar uma base de dados de outra api utilizando Laravel e Next.js.
 
 Se precisar entrar em contato, você pode me encontrar no [LinkedIn](https://www.linkedin.com/in/giovani-appezzato/), pelo e-mail giovani.appezzato@gmail.com ou no número (19) 99494-7867.
 
-Versão em produção: ...
-
-## 🚀 Começando
-
-Siga as **instruções** abaixo para configurar o ambiente e rodar o front-end do projeto localmente.
+Versão em produção: https://logzz.giovani-appezzato.com.br/sign-in
 
 ### 📋 Pré-requisitos
 
